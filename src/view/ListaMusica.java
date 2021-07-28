@@ -105,7 +105,7 @@ public class ListaMusica extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
         //System.out.println("Musica adicionada");
 //        JFrame f = new JFrame();
-        JOptionPane.showMessageDialog(null,"Hello, Welcome to Javatpoint.");
+        JOptionPane.showMessageDialog(null,"Música adicionada a playlist");
     }//GEN-LAST:event_jPanel1MouseClicked
 
 

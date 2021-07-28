@@ -80,6 +80,6 @@ public class Playlist {
             nomeMusica = playlistOrdenada.get(i).getNomeMusica();
             playlistString.add(nomeMusica);
         }
-        return playlistString.toString();
+        return playlistString.toString().substring(1,playlistString.toString().length() - 1);
     }
 }

@@ -25,6 +25,7 @@ public class ConjuntoPlaylistsController {
     
     public static void removePlaylist(String nomePlaylist){
         ConjuntoDePlaylists.removePlaylist(nomePlaylist);
+        System.out.println(ConjuntoDePlaylists.toStr());
     };
     
     public static Playlist getPlaylist(String nomePlaylist){
